@@ -30,4 +30,7 @@ class TestAppend(unittest.TestCase):
         input_list = [1, 2, 3]
         output_list = utilities.append(4, input_list)
         self.assertEqual(output_list, [1, 2, 3, 4])
+        
 
+if __name__ == '__main__':
+    unittest.main()
