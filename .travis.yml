@@ -5,4 +5,4 @@ python:
   - "3.3"
   - "3.5"
 script:
-  - python -m unittest
+  - python test_utilities.py
