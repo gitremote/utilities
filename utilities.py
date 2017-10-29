@@ -20,3 +20,14 @@ def append(element, to=[]):
     to.append(element)
 
     return to
+
+def add_three_numbers(num_one, num_two, num_three):
+    """Adds three numbers"""
+    total = num_one + num_two + num_two
+
+    return total
+
+
+def multiply_three_numbers(num_one, num_two, num_three):
+    """Multiplies three numbers"""
+    pass
