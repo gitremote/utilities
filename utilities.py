@@ -1,5 +1,5 @@
 def create_greeting(name="World"):
-    """Creates a greeting message
+    """creates a greeting message
 
     By default, 'World' is greeted, but
     another value can be provided instead.
@@ -8,7 +8,7 @@ def create_greeting(name="World"):
     return "Hello, {}!".format(name)
 
 
-def append(data, input_list=[]):
+def append(element, to=[]):
     """Appends the given data to a list
 
     If no list is provided, then a new list 
@@ -17,6 +17,6 @@ def append(data, input_list=[]):
 
     """
 
-    input_list.append(data)
+    to.append(element)
 
-    return input_list
+    return to
